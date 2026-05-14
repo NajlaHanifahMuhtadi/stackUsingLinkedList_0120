@@ -44,6 +44,9 @@ class stack
         }
         void peek()
         {
-            
+            if (top == NULL)
+            {
+                cout << "List is empty." << endl;
+            }
         }
 };
