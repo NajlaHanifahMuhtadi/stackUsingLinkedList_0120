@@ -57,6 +57,12 @@ class stack
                     current = current -> next;
                 }
                 cout << endl;
+                //menggunakan traversal
             }
+        }
+        
+        bool isEmpty()
+        {
+            return top == NULL;
         }
 };
