@@ -33,3 +33,8 @@ class stack
             return value;
         }
 };
+
+void pop()
+{
+    
+};
